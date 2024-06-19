@@ -1,0 +1,14 @@
+{
+    "name": "proyecto/clinica",
+    "description": "Descripción",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "require": {
+        "tecnickcom/tcpdf": "^6.7"
+    }
+}
